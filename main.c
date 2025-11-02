@@ -66,3 +66,9 @@ if (x == 20) {
 return 0;
 
 }
+
+// git add . = Added file(All of file change)
+
+// Add:
+// Edit:
+// Deleted:
