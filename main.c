@@ -1,5 +1,28 @@
- #include <stdio.h>
+// Libraries
+#include<stdio.h>
+#include<stdbool.h>
 
+// Datatype
+// int = 1234, -1234
+// char(character) = "",'' ("Hello C")
+// bool(boolean) = validate value (true,false)
+// float = 3.14 (decimal point)
+
+// double = 3.145523 (more than 2 decimal point)
+// null = (empty)
+
+// variable name
+// 1. Database 2. Variable name 3.Value default
+// int x = 10
+// char fullName = ("EDCO")
+
+// Conditional
+// 1. if (if the conditional is true)
+// 2. if...else (if gonna chose the conditional just one)
+// 3. if...else if (if want to check conditional more than one)
+// 4. if...else if...else ()
+
+// function main() It's means the initial first of all the program in C 
 int main() {
     // Conditional statement
     // 1. if
