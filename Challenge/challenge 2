@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+int plusNumber(int a, int b) {
+    int sum = a + b;
+    return sum;
+}
+
+int minusNumber(int a, int b) {
+    int minus = a - b;
+    return minus;
+}
+
+int multiNumber(int a, int b) {
+    int multi = a * b;
+    return multi;
+}
+
+int divideNumber(int a, int b) {
+    int divide = a / b;
+    return divide;
+}
+
+int calculator() {
+    char op;
+    int a, b, result;
+    
+    printf("enter operation (+, -, *, /):");
+    scanf("%c", &op);
+    
+    printf("enter two number:");
+    scanf("%f %f",&a &b);
+    
+   if (op == '+') {
+       result = plusNumber(a, b);
+       printf("Result: %d", result);
+   }
+    return 0;
+}
